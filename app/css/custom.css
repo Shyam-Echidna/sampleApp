@@ -103,7 +103,7 @@ body{
     color:#fff;
 }
 .mosquitonix_aside .panel-nav ul li a{
-    color:#ccc;
+    color:#999;
     transition: all .3s;
 }
 .mosquitonix_aside .panel-nav ul li a:hover{
