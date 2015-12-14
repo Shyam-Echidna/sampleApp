@@ -112,3 +112,7 @@ body{
 .mosquitonix_container .nav ul li span i{
     color:#008548;
 }
+.mosquitonix_footer{
+    position: absolute;
+    bottom: 0;
+}
