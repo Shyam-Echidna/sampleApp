@@ -24,11 +24,13 @@ body{
 .order-cloud .form-signin .btn-primary{
     background: #008548;
     border: 1px solid #008548;
+    text-shadow:none;
     transition:all .3s;
 }
 .order-cloud .form-signin .btn-primary:hover{
     background: #333;
-    color:#333;
+    color:#fff;
+    border:1px solid #333;
 }
 .order-cloud .form-signin .btn-info{
     padding: 0;
@@ -84,11 +86,11 @@ body{
     margin:0;
 }
 .mosquitonix_container.container-view{
-    margin-top:40px;
+    margin:40px 0;
 }
 .mosquitonix_copyright.copyright-view{
     margin:0;
-    padding:15px 0;
+    padding:10px;
     background: #4c4c4c;
 }
 .copyright-view p{
@@ -113,7 +115,35 @@ body{
     color:#008548;
 }
 .mosquitonix_footer{
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
+}
+.copyright-view p a.conditions{
+    color:#333;
+}
+.nav ul li span.text-primary{
+    color:#333;
+}
+.mosquitonix_category{
+    margin-left:100px;
+}
+.mosquitonix_cartbtn.navbar-fixed-bottom{
+    position:static;
+    margin-bottom: 38px;
+}
+.navbar-fixed-bottom ul li:last-child .btn{
+    background: #fec534;
+    color:#333;
+}
+.navbar-fixed-bottom ul li:nth-of-type(2) .btn{
+    background: #ccc;
+    color:#333;
+}
+.navbar-fixed-bottom ul li:nth-of-type(1) .btn{
+    background: #333;
+}
+small{
+    font-size:14px;
+    text-transform: uppercase;
 }

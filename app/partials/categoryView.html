@@ -25,12 +25,12 @@
         </div>
         <announcements></announcements>
     </aside>
-    <div class="col-collapse" ng-class="{ 'col-md-8 pull-right': navStatus.visible }" >
+    <div class="col-collapse" ng-class="{ 'col-md-8 mosquitonix_category': navStatus.visible }" >
         <productsearchinput></productsearchinput>
 
         <categorylistview></categorylistview>
 
-		<loadingindicator ng-show="productLoadingIndicator" title="{{'Please wait while we fetch all products' | r}}"/>
+        <loadingindicator ng-show="productLoadingIndicator" title="{{'Please wait while we fetch all products' | r}}"/>
 
         <productlistview></productlistview>
 
