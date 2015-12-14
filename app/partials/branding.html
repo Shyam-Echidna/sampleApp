@@ -1,11 +1,18 @@
-<section class="jumbotron" ng-class="{'active': isActive('catalog')}" ng-show="user.Company.LogoUrl">
+<section class="jumbotron mosquitonix_branding" ng-class="{'active': isActive('catalog')}" ng-show="user.Company.LogoUrl">
     <div class="container">
-        <h2 class="thumbnail" ng-show="Four51User.isAuthenticated()">
+         <h2 class="thumbnail" ng-show="Four51User.isAuthenticated()"> 
             <a ng-click="refreshUser()" href="catalog">
                 <img ng-src="{{user.Company.LogoUrl}}" />
             </a>
-            <span>{{user.Company.Name}}</span>
-            <homemessage />
-        </h2>
+             <!--<span>{{user.Company.Name}}</span>
+            <homemessage /> -->
+         </h2>
     </div>
 </section>
+
+  <!--<div class="logoImage" style="background-image:url('css/images/avedaBG.jpg'); text-align:center;">
+            <a style="padding:15px 0;" ng-click="refreshUser()" href="catalog">
+                <img src="css/images/orderCloud.png"/>
+            </a>
+        </div>
+        -->

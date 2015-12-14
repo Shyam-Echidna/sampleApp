@@ -1,10 +1,97 @@
 /*
+custom css
 Static file for Theme changes
 Theme name: My SPA Theme
 Version: 1.0
 Template: Howdy
 */
-
-.LPMcontainer {
-    visibility: hidden;
+body{
+    background:#fff;
+    margin:0;
+}
+.order-cloud .form-signin{
+    background: none;
+    text-align:center;
+}
+.order-cloud .form-signin img{
+    margin:0 auto;
+    text-align:center;
+    color: #333;
+}
+.order-cloud .form-signin .btn-primary{
+    background: #008548;
+    border: 1px solid #008548;
+    transition:all .3s;
+}
+.order-cloud .form-signin .btn-primary:hover{
+    background: transparent;
+    color:#333;
+}
+.order-cloud .form-signin .btn-info{
+    padding: 0;
+    background: none;
+    width: auto;
+    display: inline;
+    color:#333;
+    transition: all .3s;
+    border: none;
+}
+.order-cloud .form-signin .btn-info:hover{
+    color:#008548;
+}
+.mosuito_nav.navbar-default{
+    background: #008548;
+    border:none;
+}
+.navbar .container .navbar-nav.pull-left li a, .navbar .container-view .navbar-nav.pull-left li a,.navbar .container .navbar-nav.pull-right li a, .navbar .container-view .navbar-nav.pull-right li a{
+    padding:20px 15px;
+    height: 60px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
+    background:#FEC534;
+    color:#333;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus{
+    background:#FEC534;
+    color:#333;
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus, .dropdown-mega .dropdown-menu>li>a:hover, .dropdown-mega .dropdown-menu>li>a:focus{
+    background:#FEC534;
+    color:#333;
+}
+.navbar .container .navbar-nav.pull-left li ul li a, .navbar .container-view .navbar-nav.pull-left li ul li a{
+    height:auto;
+}
+.navbar-nav>li>.dropdown-menu{
+    padding:0;
+}
+.dropdown-menu .divider{
+    margin:0;
+}
+.jumbotron.mosquitonix_branding{
+    margin:0;
+    margin-top:20px;
+    background:#fec534;
+}
+.jumbotron.mosquitonix_branding h2{
+    text-align:center;
+}
+.jumbotron.mosquitonix_branding h2 a,.jumbotron.mosquitonix_branding h2 a img{
+    padding:0;
+    margin:0;
+}
+.mosquitonix_container.container-view{
+    margin-top:40px;
+}
+.mosquitonix_copyright.copyright-view{
+    margin:0;
+    padding:15px 0;
+    background: #4c4c4c;
+}
+.copyright-view p{
+    display:inline-block;
+    color:#fff;
+}
+.copyright-view p a{
+    color:#fff;
 }
