@@ -9,6 +9,9 @@ body{
     background:#fff;
     margin:0;
 }
+.login{
+    top:70px;
+}
 .order-cloud .form-signin{
     background: none;
     text-align:center;
@@ -24,7 +27,7 @@ body{
     transition:all .3s;
 }
 .order-cloud .form-signin .btn-primary:hover{
-    background: transparent;
+    background: #333;
     color:#333;
 }
 .order-cloud .form-signin .btn-info{
@@ -94,4 +97,18 @@ body{
 }
 .copyright-view p a{
     color:#fff;
+}
+.mosquitonix_aside .panel .panel-heading .panel-title{
+    background: #333;
+    color:#fff;
+}
+.mosquitonix_aside .panel-nav ul li a{
+    color:#ccc;
+    transition: all .3s;
+}
+.mosquitonix_aside .panel-nav ul li a:hover{
+    color:#008548;
+}
+.mosquitonix_container .nav ul li span i{
+    color:#008548;
 }
